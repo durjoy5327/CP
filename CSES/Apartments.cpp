@@ -1,4 +1,3 @@
-
 #include <bits/stdc++.h>
 using namespace std;
 int main() {
@@ -14,6 +13,7 @@ int main() {
   for(int i=0;i<m;i++){
       cin>>b[i];
   }
+  
   sort(b.begin(),b.end());
   int l=0,r=0;
   while(l<n&& r<m){
